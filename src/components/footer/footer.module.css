@@ -1,0 +1,77 @@
+/* Header */
+.hed div {
+    box-sizing: border-box;   
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* Adjust padding as needed */
+    background-color: rgb(12, 2, 2);
+    /* Added 'solid' to specify border style */
+    box-shadow: 1px 1px 4px yellow;
+    /* Adjust shadow properties */
+}
+
+/* Footer Menu */
+.footermenu{
+    padding: 10px;
+    margin: 5px;
+}
+
+.footermenu ul {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footermenu ul li {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.footermenu ul li a{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.footermenu ul li a:hover {
+    color: #fc8019;
+}
+
+/* Footer Social */
+.footersocial {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footersocial a {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.footersocial a:hover {
+    color: #fc8019;
+}
+
+.copy p{
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+}
