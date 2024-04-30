@@ -7,7 +7,7 @@
     /* Adjust padding as needed */
     background-color: rgb(12, 2, 2);
     /* Added 'solid' to specify border style */
-    box-shadow: 1px 1px 4px yellow;
+    box-shadow: 1px 1px 4px #fc8019;
     /* Adjust shadow properties */
 }
 

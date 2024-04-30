@@ -15,7 +15,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <div className="container">
-          <Header />
+          <header className="header">
+            {" "}
+            <Header />
+          </header>
           <main className="content">{children}</main>
           <Footer />
         </div>

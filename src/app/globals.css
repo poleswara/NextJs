@@ -3,6 +3,13 @@ html, body, #__next {
   height: 100%;
   margin: 0;
 }
+/* Header style */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100; /* Ensure the header stays above other content */
+  background-color: #ffffff; /* Add your desired background color */
+}
 
 /* Layout styles */
 .container {
@@ -14,18 +21,5 @@ html, body, #__next {
 .content {
   flex: 1; /* Fill remaining space */
   overflow-y: auto; /* Enable vertical scrolling for content */
-}
-
-/* Footer styles */
-footer {
-  position: fixed; /* Fix the footer at the bottom of the viewport */
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #f0f0f0;
-  padding: 20px;
-  box-sizing: border-box;
-  z-index: 100; /* Ensure the footer stays above other content */
-  overflow-y: auto; /* Enable vertical scrolling for the footer */
 }
 
